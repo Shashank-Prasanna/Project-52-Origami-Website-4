@@ -1,14 +1,27 @@
 * {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+	margin: 0%;
+	margin-bottom: 2%;
+	background-color: #f4f4dc;
+}
+h1 {
+	font-size: 40px;
 }
 
 .header {
-	color: coral;
-	background-color: aquamarine;
+	color: #ff7f50;
+	background-color: #7fffd4;
+	padding-bottom: 40px;
+}
+.header p {
+	font-size: 25px;
 }
 
 .menu {
-	background-color: rgb(95, 87, 87);
+	background-color: #5f5757;
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -22,7 +35,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	stroke: aliceblue;
+	stroke: #f0f8ff;
 }
 
 .grid {
@@ -30,7 +43,7 @@
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	background-color: rgb(244, 244, 220);
+	background-color: #f4f4dc;
 	padding-top: 1%;
 	padding-left: 1%;
 	padding-right: 1%;
@@ -41,11 +54,11 @@
 	border-radius: 40px;
 	min-width: 330px;
 	max-width: 330px;
-	max-height: 400px;
-	min-height: 400px;
+	max-height: 410px;
+	min-height: 410px;
 	justify-content: space-between;
 	flex-direction: column;
-	background-color: white;
+	background-color: #ffffff;
 	padding: 2%;
 }
 
@@ -55,11 +68,11 @@
 	border-radius: 40px;
 	min-width: 330px;
 	max-width: 330px;
-	max-height: 400px;
-	min-height: 400px;
+	max-height: 410px;
+	min-height: 410px;
 	justify-content: space-between;
 	flex-direction: column;
-	background-color: white;
+	background-color: #ffffff;
 	padding: 2%;
 	padding-left: 2%;
 	box-shadow: 2px 2px;
@@ -70,11 +83,11 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-color: white;
+	background-color: #ffffff;
 }
 
 a {
-	color: white;
+	color: #ffffff;
 	text-decoration: none;
 }
 
