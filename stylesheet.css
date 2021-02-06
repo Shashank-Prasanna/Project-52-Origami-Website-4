@@ -43,15 +43,16 @@ h1 {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	background-color: #f4f4dc;
+	background-color: rgb(250, 250, 250);
 	padding-top: 1%;
 	padding-left: 1%;
 	padding-right: 1%;
 }
 .origami {
 	display: flex;
+	transition: 0.4s;
 	flex-wrap: wrap;
-	border-radius: 40px;
+	border-radius: 70px;
 	min-width: 330px;
 	max-width: 330px;
 	max-height: 410px;
@@ -65,7 +66,7 @@ h1 {
 .origami:hover {
 	display: flex;
 	flex-wrap: wrap;
-	border-radius: 40px;
+	border-radius: 60px;
 	min-width: 330px;
 	max-width: 330px;
 	max-height: 410px;
@@ -75,7 +76,8 @@ h1 {
 	background-color: #ffffff;
 	padding: 2%;
 	padding-left: 2%;
-	box-shadow: 2px 2px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transform: scale(1.05);
 }
 .info {
 	display: flex;
@@ -101,4 +103,39 @@ img {
 	align-items: center;
 	flex-wrap: wrap;
 	padding-left: 20%;
+}
+
+button {
+	transition-duration: 0.4s;
+	border: none;
+	background-color: #5f5757;
+	color: white;
+	font-size: large;
+}
+button:hover {
+	background-color: white;
+	color: coral;
+}
+
+.sidebar {
+	transition: 100s;
+	width: 25vw;
+	align-content: center;
+	background-color: rgba(0, 0, 0, 0.8);
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	overflow-x: hidden;
+}
+
+.sidebarItem {
+	color: aquamarine;
+	border: none;
+	width: 25vw;
+	background-color: transparent;
+	margin-bottom: 2vw;
+	margin-top: 2vw;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+	font-size: x-large;
 }

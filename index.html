@@ -13,19 +13,34 @@
 	</head>
 
 	<body>
+		<script>
+			function sidebarOpen() {
+				document.getElementById('mySidebar').style.display = 'block';
+			}
+
+			function sidebarClose() {
+				document.getElementById('mySidebar').style.display = 'none';
+			}
+		</script>
+		<!--Sidebar-->
+		<div class="sidebar" style="display: none" id="mySidebar">
+			<button onclick="sidebarClose()" class="sidebarItem">Close</button>
+			<button onclick="window.location.href='about.html'" class="sidebarItem">About Us</button>
+			<button onclick="window.location.href='follow.html'" class="sidebarItem">Follow Us</button>
+			<button onclick="window.location.href='https://www.origami.me'" class="sidebarItem">Origami.me</button>
+		</div>
+
 		<div class="header">
 			<div class="menu">
 				<div><a href="about.html">About Us</a></div>
 				<div>Origami Designs</div>
-				<div><a href="#">☰</a></div>
+				<button onclick="sidebarOpen()">☰</button>
 			</div>
 			<div class="title">
 				<h1>Origami Instructions</h1>
 				<p>This is a compendium of easy origami instructions for you to follow. No more needing to search the Internet to find them. Have fun!</p>
 			</div>
 		</div>
-
-		<hr color="#3322FA" />
 
 		<div class="grid">
 			<div class="origami">
